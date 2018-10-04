@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "codger/generate": "^0.4.2"
+        "codger/generate": "^0.6.0"
     },
     "require-dev": {
         "toast/unit": "^1.3",
