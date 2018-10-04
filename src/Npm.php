@@ -46,8 +46,7 @@ class Npm
     public function addDependency(string $name, bool $dev = false) : void
     {
         if (!$this->hasDependency($name)) {
-                $dev = $dev ? ' -D' : '';
-            }
+            $dev = $dev ? ' -D' : '';
             if ($this->yarn) {
                 exec("yarn add$dev $name");
             } else {
