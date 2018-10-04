@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdc789b86e1134a52a2892f48fc6b646",
+    "content-hash": "b8c3863477ce01abec94c94a4848a4d5",
     "packages": [
         {
             "name": "codger/generate",
-            "version": "0.4.2",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codger-php/generate.git",
-                "reference": "ee3f4d3a73f39ee9b80d5964e430bb529654d83d"
+                "reference": "26a850427e19cf82e000f08b8fd27c9675a3221e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codger-php/generate/zipball/ee3f4d3a73f39ee9b80d5964e430bb529654d83d",
-                "reference": "ee3f4d3a73f39ee9b80d5964e430bb529654d83d",
+                "url": "https://api.github.com/repos/codger-php/generate/zipball/26a850427e19cf82e000f08b8fd27c9675a3221e",
+                "reference": "26a850427e19cf82e000f08b8fd27c9675a3221e",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Codger\\Generate\\": "./src"
+                    "Codger\\Generate\\": "./src",
+                    "Codger\\Demo\\": "./demo"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -49,7 +50,7 @@
                 }
             ],
             "description": "Code generator, base framework",
-            "time": "2018-09-21T09:57:26+00:00"
+            "time": "2018-10-02T14:36:50+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -451,16 +452,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.45",
+            "version": "v2.8.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "fbf876678e29dc634430dcf0096e216eb0004467"
+                "reference": "5baf0f821b14eee8ca415e6a0361a9fa140c002c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/fbf876678e29dc634430dcf0096e216eb0004467",
-                "reference": "fbf876678e29dc634430dcf0096e216eb0004467",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/5baf0f821b14eee8ca415e6a0361a9fa140c002c",
+                "reference": "5baf0f821b14eee8ca415e6a0361a9fa140c002c",
                 "shasum": ""
             },
             "require": {
@@ -497,7 +498,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T09:03:18+00:00"
+            "time": "2018-08-29T13:11:53+00:00"
         },
         {
             "name": "toast/unit",
