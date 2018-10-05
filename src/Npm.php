@@ -31,8 +31,8 @@ class Npm
      */
     public function hasDependency(string $name) : bool
     {
-        return (isset($this->package->dependencies) && array_key_exists($name, $this->package->dependencies))
-            || (isset($this->package->devDependencies) && array_key_exists($name, $this->package->devDependencies));
+        return (isset($this->package->dependencies) && isset($this->package->dependencies->$name))
+            || (isset($this->package->devDependencies) && isset($this->package->devDependencies->$name));
     }
 
     /**
