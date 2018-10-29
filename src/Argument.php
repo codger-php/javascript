@@ -5,6 +5,10 @@ namespace Codger\Javascript;
 use Twig_Environment;
 use ReflectionParameter;
 
+/**
+ * Wrap an argument. This is not extremely useful here, but the ES6 module will
+ * extend it and _will_ do something useful with it :)
+ */
 class Argument extends Recipe
 {
     use Doccomment;
@@ -15,25 +19,10 @@ class Argument extends Recipe
     /**
      * @param Twig_Environment $twig
      */
-    public function __construct(Twig_Environment $twig)
+    public function __construct(Twig_Environment $twig, string $name = null)
     {
         parent::__construct($twig);
-        $this->variables = (object)[
-            'variadic' => false,
-            'default' => false,
-            'name' => false,
-        ];
-    }
-
-    /**
-     * Mark the argument as variadic (or not).
-     *
-     * @param bool $variadic Defaults to `true`
-     * @return Codger\Javascript\Argument Itself
-     */
-    public function isVariadic(bool $variadic = true) : Argument
-    {
-        return $this->set('variadic', $variadic);
+        $this->variables = (object)compact('name');
     }
 
     /**
