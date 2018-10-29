@@ -13,6 +13,7 @@ return function () : Func {
     $twig = new Twig_Environment(new Twig_Loader_Filesystem(dirname(__DIR__, 2).'/templates'));
     $function->output('php://stdout')
         ->addArgument(new Argument($twig, 'foo'))
+        ->addArgument(new Argument($twig, 'bar'))
         ->setBody('return false;');
     return $function;
 };
