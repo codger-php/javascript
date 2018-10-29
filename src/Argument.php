@@ -3,7 +3,6 @@
 namespace Codger\Javascript;
 
 use Twig_Environment;
-use ReflectionParameter;
 
 /**
  * Wrap an argument. This is not extremely useful here, but the ES6 module will
@@ -11,8 +10,6 @@ use ReflectionParameter;
  */
 class Argument extends Recipe
 {
-    use Doccomment;
-
     /** @var string */
     protected $template = 'argument.html.twig';
 
