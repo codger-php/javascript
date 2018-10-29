@@ -37,7 +37,7 @@ class Func extends Recipe
     {
         $arguments = [];
         foreach ($this->arguments as $argument) {
-            $arguments[] = $argument->render();
+            $arguments[] = trim($argument->render());
         }
         $this->variables->arguments = implode(', ', $arguments);
         return parent::render();
