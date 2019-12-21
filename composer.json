@@ -10,10 +10,10 @@
         }
     ],
     "require": {
-        "codger/generate": "^0.7.0"
+        "codger/generate": "^0.8.0"
     },
     "require-dev": {
-        "toast/unit": "^1.3"
+        "toast/unit": "^2.0"
     },
     "autoload": {
         "psr-4": {
