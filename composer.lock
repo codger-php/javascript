@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a3ad7a9e418f31d09898e69fecd0879",
+    "content-hash": "e62af4ae604d8f602c7332c894c3735f",
     "packages": [
         {
             "name": "codger/generate",
-            "version": "0.8.5",
+            "version": "0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codger-php/generate.git",
-                "reference": "e26336e40d0028e9f965d928401dc491d3f45398"
+                "reference": "7e0508765d2c56436c1a25898ac2ea9dcb168b6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codger-php/generate/zipball/e26336e40d0028e9f965d928401dc491d3f45398",
-                "reference": "e26336e40d0028e9f965d928401dc491d3f45398",
+                "url": "https://api.github.com/repos/codger-php/generate/zipball/7e0508765d2c56436c1a25898ac2ea9dcb168b6a",
+                "reference": "7e0508765d2c56436c1a25898ac2ea9dcb168b6a",
                 "shasum": ""
             },
             "require": {
-                "monolyth/cliff": "^0.5.1",
+                "monolyth/cliff": "^0.6.0",
                 "php": ">=7.3",
                 "twig/twig": "^2.7"
             },
@@ -49,20 +49,20 @@
                 }
             ],
             "description": "Code generator, base framework",
-            "time": "2019-12-21T13:11:58+00:00"
+            "time": "2019-12-24T01:53:29+00:00"
         },
         {
             "name": "monolyth/cliff",
-            "version": "0.5.4",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monolyth-php/cliff.git",
-                "reference": "22fd051995911186117454976db8ef9dd06d80bb"
+                "reference": "621ab4483a473244bf580207c2ce1d6a27148a80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/22fd051995911186117454976db8ef9dd06d80bb",
-                "reference": "22fd051995911186117454976db8ef9dd06d80bb",
+                "url": "https://api.github.com/repos/monolyth-php/cliff/zipball/621ab4483a473244bf580207c2ce1d6a27148a80",
+                "reference": "621ab4483a473244bf580207c2ce1d6a27148a80",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 }
             ],
             "description": "Command line interface for Monolyth unframework",
-            "time": "2019-12-21T07:37:35+00:00"
+            "time": "2019-12-23T09:31:52+00:00"
         },
         {
             "name": "monomelodies/reflex",
@@ -257,16 +257,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.2",
+            "version": "v2.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed"
+                "reference": "97b6311585cae66a26833b14b33785f5797f7d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
-                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/97b6311585cae66a26833b14b33785f5797f7d39",
+                "reference": "97b6311585cae66a26833b14b33785f5797f7d39",
                 "shasum": ""
             },
             "require": {
@@ -276,8 +276,7 @@
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "^3.4|^4.2",
-                "symfony/phpunit-bridge": "^4.4@dev|^5.0"
+                "symfony/phpunit-bridge": "^4.4|^5.0"
             },
             "type": "library",
             "extra": {
@@ -306,7 +305,6 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 },
                 {
@@ -320,7 +318,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-11-11T16:52:09+00:00"
+            "time": "2019-12-28T07:12:03+00:00"
         },
         {
             "name": "ulrichsg/getopt-php",
@@ -567,19 +565,20 @@
         },
         {
             "name": "toast/unit",
-            "version": "2.0.1",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/toast-php/unit.git",
-                "reference": "8d4a85038bd42162f661f63bba173279bb6573b7"
+                "reference": "53c412260493cbfa1f5ec8284e764be1334c3c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/toast-php/unit/zipball/8d4a85038bd42162f661f63bba173279bb6573b7",
-                "reference": "8d4a85038bd42162f661f63bba173279bb6573b7",
+                "url": "https://api.github.com/repos/toast-php/unit/zipball/53c412260493cbfa1f5ec8284e764be1334c3c95",
+                "reference": "53c412260493cbfa1f5ec8284e764be1334c3c95",
                 "shasum": ""
             },
             "require": {
+                "monolyth/cliff": "^0.6.0",
                 "monomelodies/kingconf": "^1.1.0",
                 "php": ">=7.2",
                 "simoneast/simple-ansi-colors": "^1.0"
@@ -604,7 +603,7 @@
                 }
             ],
             "description": "Super-simple unit testing for PHP7",
-            "time": "2019-11-08T14:52:41+00:00"
+            "time": "2019-12-28T13:26:39+00:00"
         }
     ],
     "aliases": [],
