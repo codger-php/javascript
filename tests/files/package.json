@@ -9,7 +9,7 @@
   "author": "Marijn Ophorst <marijn@monomelodies.nl>",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "grunt": "^1.3.0"
