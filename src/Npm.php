@@ -16,7 +16,7 @@ class Npm
      * @param bool $yarn Whether to prefer Yarn over NPM. Defaults to true.
      * @return void
      */
-    public function __construct(string $path = null, bool $yarn = true)
+    public function __construct(?string $path = null, bool $yarn = true)
     {
         $path = $path ?? getcwd();
         $this->package = json_decode(file_get_contents("$path/package.json"));
