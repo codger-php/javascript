@@ -16,7 +16,7 @@ class Argument extends Recipe
     /**
      * @param Twig_Environment $twig
      */
-    public function __construct(Twig_Environment $twig, string $name = null)
+    public function __construct(Twig_Environment $twig, ?string $name = null)
     {
         parent::__construct($twig);
         $this->variables = (object)compact('name');
